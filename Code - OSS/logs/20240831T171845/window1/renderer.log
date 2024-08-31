@@ -1,0 +1,5 @@
+2024-08-31 17:18:46.840 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/logan/.config/picom.conf","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2024-08-31 17:18:47.895 [info] Started local extension host with pid 549.
+2024-08-31 17:18:51.404 [info] [perf] Render performance baseline is 64ms
+2024-08-31 17:24:40.342 [info] Started local extension host with pid 1118.
+2024-08-31 17:24:43.926 [info] [perf] Render performance baseline is 34ms

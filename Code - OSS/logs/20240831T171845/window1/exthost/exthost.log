@@ -1,0 +1,18 @@
+2024-08-31 17:18:49.486 [info] Extension host with pid 549 started
+2024-08-31 17:18:49.854 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-31 17:18:50.216 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-08-31 17:18:50.299 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-31 17:18:50.332 [info] Eager extensions activated
+2024-08-31 17:18:50.355 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-31 17:18:50.362 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-31 17:24:37.713 [info] Extension host terminating: renderer closed the MessagePort
+2024-08-31 17:24:37.717 [info] Extension host with pid 549 exiting with code 0
+2024-08-31 17:24:41.337 [info] Extension host with pid 1118 started
+2024-08-31 17:24:41.337 [info] Skipping acquiring lock for /home/logan/.config/Code - OSS/User/workspaceStorage/570292755569311cdede02737c33a6d4.
+2024-08-31 17:24:41.542 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-08-31 17:24:41.629 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-31 17:24:41.692 [info] Eager extensions activated
+2024-08-31 17:24:41.717 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-31 17:24:41.726 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-31 17:24:45.345 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-08-31 17:24:51.047 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'

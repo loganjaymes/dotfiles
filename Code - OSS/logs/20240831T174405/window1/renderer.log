@@ -1,0 +1,15 @@
+2024-08-31 17:44:07.129 [info] Started local extension host with pid 784.
+2024-08-31 17:44:10.660 [info] [perf] Render performance baseline is 105ms
+2024-08-31 17:44:22.078 [info] Started local extension host with pid 844.
+2024-08-31 17:44:24.870 [info] [perf] Render performance baseline is 37ms
+2024-08-31 17:46:09.826 [info] Started local extension host with pid 1002.
+2024-08-31 17:46:13.941 [info] [perf] Render performance baseline is 204ms
+2024-08-31 17:46:37.170 [error] Model is disposed!: Error: Model is disposed!
+    at U.ib (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:755:263)
+    at U.getValue (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:757:3597)
+    at Dt (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2632:24649)
+    at d.queue (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:97:14990)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:97:16337
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:97:15967
+2024-08-31 17:46:56.834 [info] Started local extension host with pid 1187.
+2024-08-31 17:47:01.343 [info] [perf] Render performance baseline is 61ms

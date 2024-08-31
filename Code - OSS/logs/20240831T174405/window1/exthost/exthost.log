@@ -1,0 +1,880 @@
+2024-08-31 17:44:08.594 [info] Extension host with pid 784 started
+2024-08-31 17:44:09.110 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-31 17:44:09.257 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-31 17:44:09.272 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-31 17:44:09.350 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-31 17:44:09.510 [info] Eager extensions activated
+2024-08-31 17:44:09.558 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-31 17:44:09.560 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-31 17:44:20.636 [info] Extension host terminating: renderer closed the MessagePort
+2024-08-31 17:44:20.648 [info] Extension host with pid 784 exiting with code 0
+2024-08-31 17:44:23.001 [info] Extension host with pid 844 started
+2024-08-31 17:44:23.001 [info] Skipping acquiring lock for /home/logan/.config/Code - OSS/User/workspaceStorage/570292755569311cdede02737c33a6d4.
+2024-08-31 17:44:23.220 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-31 17:44:23.358 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-31 17:44:23.394 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-31 17:44:23.460 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-31 17:44:23.557 [info] Eager extensions activated
+2024-08-31 17:44:23.638 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-31 17:44:23.640 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-31 17:44:23.940 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:44:24.256 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:44:24.964 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:44:25.310 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:44:26.506 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:44:27.551 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:44:32.915 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:44:33.925 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:44:37.971 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:44:38.983 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:44:43.054 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:44:44.063 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:44:48.101 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:44:49.104 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:44:53.152 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:44:54.169 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:44:58.220 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:44:59.224 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:45:03.317 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:45:04.322 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:45:08.378 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:45:09.385 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:45:13.433 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:45:14.441 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:45:25.087 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:45:26.103 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:45:30.155 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:45:31.160 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:45:35.199 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:45:36.203 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:45:40.251 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:45:41.254 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:45:45.308 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:45:46.311 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:45:50.407 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:45:51.411 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:45:55.464 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:45:56.468 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:00.504 [warning] [Decorations] CAPPING events from decorations provider vscode.git 492
+2024-08-31 17:46:01.514 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:07.462 [warning] [Decorations] CAPPING events from decorations provider vscode.git 494
+2024-08-31 17:46:07.995 [info] Extension host terminating: renderer closed the MessagePort
+2024-08-31 17:46:08.013 [error] Canceled: Canceled
+	at new C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at A.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at i.O [as value] (/usr/lib/code/extensions/git/dist/main.js:2:951642)
+	at n.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:972220)
+	at /usr/lib/code/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at m.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at m.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at m.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-08-31 17:46:08.018 [error] Canceled: Canceled
+	at new C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at A.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:322969)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:323928
+	at i.value (/usr/lib/code/extensions/git/dist/main.js:2:1060193)
+	at n.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:972220)
+	at /usr/lib/code/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at m.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at m.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at m.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-08-31 17:46:08.018 [info] Extension host with pid 844 exiting with code 0
+2024-08-31 17:46:10.775 [info] Extension host with pid 1002 started
+2024-08-31 17:46:10.775 [info] Skipping acquiring lock for /home/logan/.config/Code - OSS/User/workspaceStorage/34ad65eb107cc2ef536e59500b09cfea.
+2024-08-31 17:46:10.887 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-31 17:46:10.938 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-31 17:46:10.996 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-31 17:46:11.145 [info] Eager extensions activated
+2024-08-31 17:46:11.262 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-31 17:46:11.276 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-31 17:46:11.391 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-31 17:46:11.672 [warning] [Decorations] CAPPING events from decorations provider vscode.git 497
+2024-08-31 17:46:12.030 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6691
+2024-08-31 17:46:13.375 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:13.744 [warning] [Decorations] CAPPING events from decorations provider vscode.git 497
+2024-08-31 17:46:13.946 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6691
+2024-08-31 17:46:14.864 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:14.865 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:15.865 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:17.075 [warning] [Decorations] CAPPING events from decorations provider vscode.git 497
+2024-08-31 17:46:17.162 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6691
+2024-08-31 17:46:18.084 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:18.229 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:22.170 [warning] [Decorations] CAPPING events from decorations provider vscode.git 497
+2024-08-31 17:46:22.499 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6691
+2024-08-31 17:46:23.681 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:23.684 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:27.247 [warning] [Decorations] CAPPING events from decorations provider vscode.git 497
+2024-08-31 17:46:27.640 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6691
+2024-08-31 17:46:28.327 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:28.654 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:32.307 [warning] [Decorations] CAPPING events from decorations provider vscode.git 497
+2024-08-31 17:46:32.801 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6691
+2024-08-31 17:46:33.494 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:33.811 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:37.359 [warning] [Decorations] CAPPING events from decorations provider vscode.git 497
+2024-08-31 17:46:38.366 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:42.424 [warning] [Decorations] CAPPING events from decorations provider vscode.git 497
+2024-08-31 17:46:43.429 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:46:54.966 [warning] [Decorations] CAPPING events from decorations provider vscode.git 497
+2024-08-31 17:46:54.992 [info] Extension host terminating: renderer closed the MessagePort
+2024-08-31 17:46:55.011 [error] Canceled: Canceled
+	at new C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at A.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at i.O [as value] (/usr/lib/code/extensions/git/dist/main.js:2:951642)
+	at n.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:972220)
+	at /usr/lib/code/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at m.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at m.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at m.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-08-31 17:46:55.012 [error] Canceled: Canceled
+	at new C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at A.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:322969)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:323928
+	at i.value (/usr/lib/code/extensions/git/dist/main.js:2:1060193)
+	at n.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:972220)
+	at /usr/lib/code/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at m.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at m.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at m.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-08-31 17:46:55.012 [error] Canceled: Canceled
+	at new C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at A.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at i.O [as value] (/usr/lib/code/extensions/git/dist/main.js:2:951642)
+	at n.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:972220)
+	at /usr/lib/code/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at m.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at m.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at m.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-08-31 17:46:55.012 [error] Canceled: Canceled
+	at new C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at A.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:322969)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:323928
+	at i.value (/usr/lib/code/extensions/git/dist/main.js:2:1060193)
+	at n.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:972220)
+	at /usr/lib/code/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at m.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at m.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at m.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-08-31 17:46:55.012 [info] Extension host with pid 1002 exiting with code 0
+2024-08-31 17:46:58.232 [info] Extension host with pid 1187 started
+2024-08-31 17:46:58.232 [info] Skipping acquiring lock for /home/logan/.config/Code - OSS/User/workspaceStorage/570292755569311cdede02737c33a6d4.
+2024-08-31 17:46:58.532 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-31 17:46:58.790 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-31 17:46:58.857 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-31 17:46:58.892 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-31 17:46:59.124 [info] Eager extensions activated
+2024-08-31 17:46:59.208 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-31 17:46:59.210 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-31 17:46:59.383 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:46:59.783 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:47:00.676 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:47:00.794 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:47:02.561 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:47:03.571 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:47:07.623 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:47:08.627 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:47:12.696 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:47:13.706 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:47:17.768 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:47:18.780 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:47:22.833 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:47:23.838 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:47:27.927 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:47:28.932 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:47:32.992 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:47:33.999 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:47:38.050 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:47:39.054 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:47:43.118 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:47:44.130 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:47:48.195 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:47:49.208 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:47:53.270 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:47:54.274 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:48:02.713 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:48:03.716 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:48:08.496 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:48:09.500 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:48:13.555 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:48:14.559 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:48:18.761 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:48:19.763 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:48:23.816 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:48:24.921 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:48:54.922 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:48:55.937 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:49:11.992 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:49:13.031 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:49:23.222 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:49:24.236 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:49:40.750 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:49:41.764 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:49:45.819 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:49:46.826 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:49:54.280 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:49:55.308 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:50:09.533 [warning] [Decorations] CAPPING events from decorations provider vscode.git 498
+2024-08-31 17:50:10.538 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-08-31 17:50:11.711 [info] Extension host terminating: renderer closed the MessagePort
+2024-08-31 17:50:11.731 [error] Canceled: Canceled
+	at new C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at A.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at i.O [as value] (/usr/lib/code/extensions/git/dist/main.js:2:951642)
+	at n.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:972220)
+	at /usr/lib/code/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at m.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at m.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at m.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-08-31 17:50:11.732 [error] Canceled: Canceled
+	at new C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at A.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:322969)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:323928
+	at i.value (/usr/lib/code/extensions/git/dist/main.js:2:1060193)
+	at n.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:972220)
+	at /usr/lib/code/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at m.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at m.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at m.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-08-31 17:50:11.732 [info] Extension host with pid 1187 exiting with code 0
