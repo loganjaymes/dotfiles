@@ -1,0 +1,7 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "'Meslo LGS Nerd Font', 'monospace', monospace",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ]
+}

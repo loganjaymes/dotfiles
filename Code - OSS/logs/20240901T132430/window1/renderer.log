@@ -1,0 +1,8 @@
+2024-09-01 13:24:31.419 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/logan/.config/i3/config","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2024-09-01 13:24:32.247 [info] Started local extension host with pid 4751.
+2024-09-01 13:24:35.607 [info] [perf] Render performance baseline is 68ms
+2024-09-01 14:01:18.498 [info] Started local extension host with pid 5796.
+2024-09-01 14:01:22.095 [info] [perf] Render performance baseline is 85ms
+2024-09-01 14:01:28.762 [info] Started local extension host with pid 5841.
+2024-09-01 14:01:32.393 [info] [perf] Render performance baseline is 102ms
+2024-09-01 14:18:57.309 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: issueReporter.experimental.auxWindow
