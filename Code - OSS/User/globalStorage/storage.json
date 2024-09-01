@@ -18,22 +18,15 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/logan/.config/lf"
-            },
-            {
                 "folderUri": "file:///home/logan/.config"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1725225332046"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/logan/.config/lf",
-            "backupPath": "/home/logan/.config/Code - OSS/Backups/6c232441b3a030916f45e5f12c00b362",
+            "folder": "file:///home/logan/.config",
+            "backupPath": "/home/logan/.config/Code - OSS/Backups/1bfb1617891858bd02fa1cf8a112e4b5",
             "uiState": {
                 "mode": 1,
                 "x": 962,
@@ -64,7 +57,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
+            "sideBarWidth": 327,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -186,6 +179,17 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/logan/.config/gitignore",
+                                        "path": "/home/logan/.config/gitignore",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/gitignore"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/logan/.config/lf/lfrc",
                                         "path": "/home/logan/.config/lf/lfrc",
                                         "scheme": "file"
@@ -280,17 +284,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.config/rofi/catppucin-mocha"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/logan/config.rasi",
-                                        "path": "/home/logan/config.rasi",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/config.rasi"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -895,6 +888,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -1012,8 +1012,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1669,6 +1668,11 @@
                 "label": "Ctrl+K Ctrl+\\",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
+            },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
