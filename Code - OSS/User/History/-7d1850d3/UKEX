@@ -1,0 +1,14 @@
+# Basic
+set hidden true
+set ignorecase true
+set icons true
+
+# Commands
+cmd delete ${{
+    set -f
+    printf "$fx\n"
+    printf  "delte?[y/n]"
+    read ans
+    [ $ans = "y] && rm -rf $fx
+}}
+map <delete> trash

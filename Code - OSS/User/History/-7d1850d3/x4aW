@@ -1,0 +1,17 @@
+set previewer lf-ueberzug-previewer 
+set cleaner lf-ueberzug-cleaner 
+
+# Basic
+set hidden true
+set ignorecase true
+set icons true
+
+# Commands
+cmd trash ${{
+    set -f
+    printf "$fx\n"
+    printf  "delete?[y/n]"
+    read ans
+    [ $ans = "y" ] && sudo rm -rf $fx
+}}
+map <delete> trash

@@ -1,0 +1,9 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "'Meslo LGS Nerd Font'",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "git.enableSmartCommit": true,
+    "git.autofetch": true
+}

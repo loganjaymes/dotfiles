@@ -4,6 +4,8 @@
         "workspaces": {
             "file:///home/logan": "__default__profile__",
             "file:///home/logan/.config/i3": "__default__profile__",
+            "file:///home/logan/old": "__default__profile__",
+            "file:///home/logan/.config/lf": "__default__profile__",
             "file:///home/logan/.config": "__default__profile__"
         },
         "emptyWindows": {}
@@ -16,21 +18,28 @@
         "workspaces": [],
         "folders": [
             {
+                "folderUri": "file:///home/logan/.config/lf"
+            },
+            {
                 "folderUri": "file:///home/logan/.config"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1725225332046"
+            }
+        ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/logan/.config",
-            "backupPath": "/home/logan/.config/Code - OSS/Backups/1bfb1617891858bd02fa1cf8a112e4b5",
+            "folder": "file:///home/logan/.config/lf",
+            "backupPath": "/home/logan/.config/Code - OSS/Backups/6c232441b3a030916f45e5f12c00b362",
             "uiState": {
                 "mode": 1,
-                "x": 964,
-                "y": 38,
-                "width": 944,
-                "height": 1030
+                "x": 962,
+                "y": 34,
+                "width": 948,
+                "height": 1036
             }
         },
         "openedWindows": []
@@ -130,6 +139,28 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/logan/.config/lf",
+                                        "path": "/home/logan/.config/lf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/lf"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/logan/old",
+                                        "path": "/home/logan/old",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/old"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/logan/.config/i3",
                                         "path": "/home/logan/.config/i3",
                                         "scheme": "file"
@@ -155,6 +186,94 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/logan/.config/lf/lfrc",
+                                        "path": "/home/logan/.config/lf/lfrc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/lf/lfrc"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/logan/lf-gadgets/lf-ueberzug/lfrc-ueberzug",
+                                        "path": "/home/logan/lf-gadgets/lf-ueberzug/lfrc-ueberzug",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/lf-gadgets/lf-ueberzug/lfrc-ueberzug"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/logan/.config/alacritty/alacritty.toml",
+                                        "path": "/home/logan/.config/alacritty/alacritty.toml",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/alacritty/alacritty.toml"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/logan/.config/alacritty/alacritty",
+                                        "path": "/home/logan/.config/alacritty/alacritty",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/alacritty/alacritty"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/logan/.config/picom.conf",
+                                        "path": "/home/logan/.config/picom.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/picom.conf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/logan/.config/i3/config",
+                                        "path": "/home/logan/.config/i3/config",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/i3/config"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/logan/.config/fastfetch/config.jsonc",
+                                        "path": "/home/logan/.config/fastfetch/config.jsonc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/fastfetch/config.jsonc"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/logan/.config/fastfetch/fastfetch",
+                                        "path": "/home/logan/.config/fastfetch/fastfetch",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/fastfetch/fastfetch"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/logan/.config/rofi/catppucin-mocha",
                                         "path": "/home/logan/.config/rofi/catppucin-mocha",
                                         "scheme": "file"
@@ -172,94 +291,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/config.rasi"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/logan/.config/rofi/config.rasi",
-                                        "path": "/home/logan/.config/rofi/config.rasi",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/rofi/config.rasi"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///etc/polybar/config.ini",
-                                        "path": "/etc/polybar/config.ini",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/etc/polybar/config.ini"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/logan/.config/i3/config",
-                                        "path": "/home/logan/.config/i3/config",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/i3/config"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/logan/.config/alacritty/alacritty.toml",
-                                        "path": "/home/logan/.config/alacritty/alacritty.toml",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/alacritty/alacritty.toml"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/logan/.config/fastfetch/config.jsonc",
-                                        "path": "/home/logan/.config/fastfetch/config.jsonc",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/fastfetch/config.jsonc"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/logan/.config/picom.conf",
-                                        "path": "/home/logan/.config/picom.conf",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/picom.conf"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///etc/xdg/picom.conf",
-                                        "path": "/etc/xdg/picom.conf",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/etc/xdg/picom.conf"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/logan/.config/picom/picom.conf",
-                                        "path": "/home/logan/.config/picom/picom.conf",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/picom/picom.conf"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -306,7 +337,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -863,13 +895,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -969,7 +994,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -1643,11 +1669,6 @@
                 "label": "Ctrl+K Ctrl+\\",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
-            },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",

@@ -1,0 +1,6 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "editor.fontFamily": "MesloLGS Nerd Font Mono, Consolas"
+}
