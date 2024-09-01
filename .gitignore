@@ -1,6 +1,6 @@
 dconf/
-go/
+go/telemetry/local
 gtk-3.0/
 pulse/
-systemd/
+systemd/user
 yay/
