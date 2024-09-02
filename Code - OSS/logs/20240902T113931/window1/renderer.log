@@ -1,0 +1,5 @@
+2024-09-02 11:39:32.577 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/logan/.config/polybar/config.ini","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2024-09-02 11:39:33.541 [info] Started local extension host with pid 26256.
+2024-09-02 11:39:36.470 [info] [perf] Render performance baseline is 35ms
+2024-09-02 12:04:18.968 [info] Started local extension host with pid 26816.
+2024-09-02 12:04:23.059 [info] [perf] Render performance baseline is 34ms

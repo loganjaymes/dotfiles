@@ -8,7 +8,9 @@
             "file:///home/logan/.config/lf": "__default__profile__",
             "file:///home/logan/.config": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1725295171923": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -21,7 +23,11 @@
                 "folderUri": "file:///home/logan/.config"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1725295171923"
+            }
+        ]
     },
     "windowsState": {
         "lastActiveWindow": {
@@ -29,10 +35,10 @@
             "backupPath": "/home/logan/.config/Code - OSS/Backups/1bfb1617891858bd02fa1cf8a112e4b5",
             "uiState": {
                 "mode": 1,
-                "x": 962,
-                "y": 34,
-                "width": 948,
-                "height": 1036
+                "x": 964,
+                "y": 40,
+                "width": 940,
+                "height": 1024
             }
         },
         "openedWindows": []
@@ -179,6 +185,50 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/logan/.config/picom.conf",
+                                        "path": "/home/logan/.config/picom.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/picom.conf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/logan/.config/polybar/config.ini",
+                                        "path": "/home/logan/.config/polybar/config.ini",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/polybar/config.ini"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/logan/.config/gtk-3.0/settings.ini",
+                                        "path": "/home/logan/.config/gtk-3.0/settings.ini",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/gtk-3.0/settings.ini"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/logan/.config/gtk-3.0/settings",
+                                        "path": "/home/logan/.config/gtk-3.0/settings",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/gtk-3.0/settings"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/logan/.config/gitignore",
                                         "path": "/home/logan/.config/gitignore",
                                         "scheme": "file"
@@ -234,56 +284,12 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/logan/.config/picom.conf",
-                                        "path": "/home/logan/.config/picom.conf",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/picom.conf"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/logan/.config/i3/config",
                                         "path": "/home/logan/.config/i3/config",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/.config/i3/config"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/logan/.config/fastfetch/config.jsonc",
-                                        "path": "/home/logan/.config/fastfetch/config.jsonc",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/fastfetch/config.jsonc"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/logan/.config/fastfetch/fastfetch",
-                                        "path": "/home/logan/.config/fastfetch/fastfetch",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/fastfetch/fastfetch"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/logan/.config/rofi/catppucin-mocha",
-                                        "path": "/home/logan/.config/rofi/catppucin-mocha",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/rofi/catppucin-mocha"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -994,7 +1000,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },

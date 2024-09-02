@@ -1,0 +1,6 @@
+dconf/
+go/telemetry/local
+gtk-3.0/
+pulse/
+systemd/user
+yay/
